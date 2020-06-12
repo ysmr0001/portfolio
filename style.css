@@ -4,6 +4,7 @@
 
 .wrapper {
   width: 100%;
+  margin: 0 auto;
 }
 
 .inner {
@@ -24,10 +25,12 @@ h1 {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 
 .btn-square {
+  font-weight: bold;
   margin-top: 15px;
   text-align: center;
   font-size: 20px;
@@ -46,6 +49,7 @@ ul {
   transform: translateY(4px);/*下に動く*/
   border-bottom: none;/*線を消す*/
 }
+
 
 @media screen and (min-width: 481px) {
 
