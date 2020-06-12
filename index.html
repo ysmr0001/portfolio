@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"> -->
+  <script src="script.js" defer></script>
   <title>ポートフォリオ</title>
 </head>
+
 <body>
-  <h1>ポートフォリオサイト</h1>
+  <div class="wrapper">
+    <div class="inner">
+      <header>
+        <div class="header-inner">
+          <div id="title">
+      <h1>メルカリ一発計算機</h1>
+    </div>
+      <div class="intro">
+        <p>メルカリで売りたい商品の価格を入力するだけ！<br>
+          送料など手数料を一発で計算できます。ぜひご利用ください</p>
+      </div>
+    </header>
+
+      <div class="calc">
+        <p>商品の金額を入力してください</p>
+        <input type="text" style="width: 100%; height: 30px;" >        
+        <a href="#" class="btn-square">計算する</a></div>
+
+      <div class="result">
+
+        <ul class="rakuraku">
+          <h3>らくらくメルカリ便</h3>
+          <li class="nekopos">ネコポス・・・<span></span></li>
+          <li class="takusaikcompact">宅配便コンパクト・・・<span></span></li>
+          <li class="takkyubin">宅急便・・・<span></span></li>
+        </ul>
+
+
+        <!-- 
+        ネコポス　195円税込
+        宅急便コンパクト　全国一律380円税込
+        宅急便　 
+        60サイズ(〜2kg)：700円
+        80サイズ(〜5kg)：800円
+        100サイズ(〜10kg)：1,000円
+        120サイズ(〜15kg)：1,100円
+        140サイズ(〜20kg)：1,300円
+        160サイズ(〜25kg)：1,600円 
+      -->
+
+        <ul class="yuyu">
+          <h3>ゆうゆうメルカリ便</h3>
+          <li class="yupacket">ゆうパケット・・・<span></span></li>
+          <li class="yupacketplus">ゆうパケットプラス・・・<span></span></li>
+          <li class="yupack">ゆうパック・・・<span></span></li>
+        </ul>
+
+        <!-- 
+        ゆうパケット 175円(税込)
+        ゆうパケットプラス 375円(税込)
+        ゆうパック
+        60サイズ：700円
+        80サイズ：800円
+        100サイズ：1,000円 
+      -->
+    </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
