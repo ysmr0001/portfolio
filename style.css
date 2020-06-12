@@ -61,12 +61,20 @@ ul {
 
 @media screen and (max-width: 768px) {
 
-  .wrapper {
-    width: 100%;
+  body {
+    margin: 0;
+    padding: 0;
   }
   
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
   .inner {
-    width: 400px;
+    width: 340px;
     margin: 0 auto;
   }
 
