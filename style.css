@@ -14,6 +14,11 @@ body {
   
 }
 
+.intro p {
+  display: inline;
+  margin: 0 auto;
+}
+
 .inner {
   width: 600px;
   margin: 0 auto;
@@ -98,7 +103,7 @@ i {
   margin-top: 5px;
 }
 
-input[type="text button"]:focus {
+input[type="text"]:focus {
   outline: 0;
 }
 
@@ -137,6 +142,15 @@ input[type="text button"]:focus {
     margin-bottom: 5px;
   }
 
+  i {
+    margin-top: 5px;
+  }
+
+  .intro p {
+    display: inline;
+    margin: 0 auto;
+  }
+
 
   .btn-square {
     margin-top: 15px;
@@ -157,4 +171,11 @@ input[type="text button"]:focus {
     transform: translateY(4px);/*下に動く*/
     border-bottom: none;/*線を消す*/
   }
+
+  input[type="text"]:focus {
+    outline: 0;
+  }
+
+  
+  
 }
