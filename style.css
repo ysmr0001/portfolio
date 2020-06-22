@@ -31,6 +31,10 @@ h1 {
   padding: 5px;
 }
 
+h3 {
+  font-size: 30px;
+}
+
 .shipping {
   display: flex;
 }
@@ -90,7 +94,6 @@ ul {
 }
 .total {
   font-weight: bold;
-  font-size: 30px;
 
 }
 
@@ -98,6 +101,10 @@ ul {
   display: flex;
   margin: 0 auto;
   width: 120px;
+}
+
+.your-inner h3 {
+  font-size: 30px;
 }
 
 i {
@@ -142,6 +149,11 @@ input[type="text"]:focus {
   .shipping h3 {
     margin-bottom: 5px;
   }
+
+  .your-inner h3 {
+    font-size: 30px;
+  }
+  
 
   i {
     margin-top: 5px;
