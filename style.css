@@ -83,7 +83,7 @@ ul {
 
 .your-total {
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
 }
 .yours {
   font-size: 24px;
@@ -97,7 +97,7 @@ ul {
 .your-inner {
   display: flex;
   margin: 0 auto;
-  width: 100px;
+  width: 120px;
 }
 
 i {
