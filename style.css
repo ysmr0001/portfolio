@@ -14,8 +14,9 @@ body {
   
 }
 
-.intro p {
-  display: inline;
+.intro {
+
+  text-align: center;
   margin: 0 auto;
 }
 
